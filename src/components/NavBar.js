@@ -1,22 +1,20 @@
 import React from 'react';
-import  Home from '../Pages/Home';
-import  Index from '../Pages/Index';
-
-import { NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom'
 
 
-export const NavBar = () =>{
-    return(
+export const NavBar = () => {
+    return (
         <nav>
-        <ul>
-          <li >
-            <NavLink to="/" className='index-link'>{Index}</NavLink>
-          </li>
-          <li >
-            <NavLink to="/home" className='home-link'>{Home}</NavLink>
-          </li>
-         
-        </ul>
-      </nav>
+            <ul>
+                <li>
+                    <NavLink className="index-link" to="/">Index</NavLink>
+                </li>
+                <li>
+                    <NavLink className="home-link" to="/home">Home</NavLink>
+                </li>
+            </ul>
+        </nav>
     )
 }
+
+export default NavBar
