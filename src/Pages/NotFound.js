@@ -5,3 +5,4 @@ export const NotFound = () => {
        <div className="not-find-page">Not found page</div>
     )
 }
+export default NotFound;
