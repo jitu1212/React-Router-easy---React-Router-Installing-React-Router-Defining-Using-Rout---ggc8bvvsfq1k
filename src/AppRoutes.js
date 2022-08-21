@@ -1,7 +1,7 @@
 import React from 'react';
-import {Home} from './Pages/Home'
-import  {Index}  from './Pages/Index';
-import {NotFound}  from './Pages/NotFound';
+import   Home from './Pages/Home'
+import  Index  from './Pages/Index';
+import NotFound  from './Pages/NotFound';
 import { Routes } from 'react-router-dom';
 import { Route } from 'react-router-dom';
 
