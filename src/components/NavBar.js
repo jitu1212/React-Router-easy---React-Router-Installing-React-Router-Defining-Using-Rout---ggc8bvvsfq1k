@@ -1,6 +1,6 @@
 import React from 'react';
-import { Home } from '../Pages/Home';
-import { Index } from '../Pages/Index';
+import  Home from '../Pages/Home';
+import  Index from '../Pages/Index';
 
 import { NavLink } from 'react-router-dom';
 
